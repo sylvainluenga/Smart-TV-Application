@@ -1,0 +1,50 @@
+.img {
+    width: 200px;
+    max-width: 500px;
+    height: 160px;
+    margin: 20px;
+    object-fit: cover
+}
+
+.img:hover {
+    border: 5px solid orange;
+}
+
+.main_div {
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+
+.next_pre_btn {
+    background-color: rgba(11, 44, 126, 0.7);
+    position: fixed;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    z-index: 1000;
+}
+
+.next_pre_btn :hover {
+    background-color: rgba(200, 191, 191, 0.95);
+}
+
+.prev_btn {
+    left: 0;
+}
+
+.next_btn {
+    right: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-auto-flow: column;
+    /* should, in theory, work without overflow-x */
+    overflow-x: scroll;
+}

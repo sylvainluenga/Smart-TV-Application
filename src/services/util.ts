@@ -1,0 +1,1 @@
+export const minutesToMillisecond = (minutes: number) => minutes * 60000;
