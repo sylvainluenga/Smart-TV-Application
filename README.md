@@ -37,6 +37,6 @@ the app runs in latest versions of Safari, Firefox and Chrome it will run on the
 run at a screen resolution of 1920 x 1080. (This can be fixed, but our preference is responsive) 
 
 # How to Run The resolution tests
-  1. firstly download the zip folder and run `npm i`
-  2. run `npm run dev`
+  1. firstly download the zip folder and run `npm i` to install the node package
+  2. run `npm run dev` to start the project 
   3. This project is running on port `5173`
